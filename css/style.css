@@ -662,3 +662,14 @@ th, td {
     background-color: #0056b3; /* Warna latar belakang saat hover */
     transform: scale(1.05); /* Efek zoom saat hover */
 }
+@media (max-width: 768px) {
+    .detail-box h2 {
+        font-size: 24px; /* Ukuran font lebih kecil untuk layar kecil */
+    }
+    .us_container .box {
+        margin-bottom: 20px; /* Menambah jarak di antara box */
+    }
+    .table {
+        font-size: 14px; /* Ukuran font lebih kecil untuk tabel */
+    }
+}
